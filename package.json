@@ -1,0 +1,42 @@
+{
+  "name": "freelance",
+  "version": "1.0.0",
+  "description": "Tutoring",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/012345789/freelance.git"
+  },
+  "keywords": [
+    "Filipek",
+    "PS",
+    "GURU",
+    "PS-GURU",
+    "personal",
+    "statement",
+    "tutoring",
+    "tutor",
+    "teacher",
+    "essay",
+    "college",
+    "university",
+    "admission"
+  ],
+  "author": "Gorlan Yuen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/012345789/freelance/issues"
+  },
+  "homepage": "https://github.com/012345789/freelance",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.12",
+    "gulp": "^3.9.0"
+  }
+}
