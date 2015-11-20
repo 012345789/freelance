@@ -35,6 +35,9 @@
   "dependencies": {
     "express": "^4.13.3"
   },
+  "engines": {
+    "node": "5.0.0"
+  },
   "devDependencies": {
     "browser-sync": "^2.9.12",
     "gulp": "^3.9.0"
