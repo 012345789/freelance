@@ -269,18 +269,86 @@ section.success a.active {
             rgba(0, 0, 0, 0),
             rgba(0, 0, 0, 0.55)), 
         url("/img/portfolio/writing.jpg");
+    transition-property: background-color, z-index;
+    transition-duration: .5s, 1s;
     width: 400px; 
     /*TODO - address this hard coded width and height later*/
     height: 224px;
 }
 
+#tutoring .portfolio-item.services:hover {
+    background: linear-gradient(
+            to bottom,
+            rgba(24,188,156,.7),
+            rgba(24,188,156,.7)), 
+        url("/img/portfolio/writing.jpg");
+    z-index: 3;
+}
+
+#tutoring .portfolio-item.past-clients {
+    background: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.55)), 
+        url("/img/portfolio/clients.jpg");
+    transition-property: background-color, z-index;
+    transition-duration: .5s, 1s;
+    width: 400px; 
+    /*TODO - address this hard coded width and height later*/
+    height: 224px;
+}
+
+#tutoring .portfolio-item.past-clients:hover {
+    background: linear-gradient(
+            to bottom,
+            rgba(24,188,156,.7),
+            rgba(24,188,156,.7)), 
+        url("/img/portfolio/clients.jpg");
+    z-index: 3;
+}
+
+#tutoring .portfolio-item.faq {
+    background: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.55)), 
+        url("/img/portfolio/faq.jpg");
+    transition-property: background-color, z-index;
+    transition-duration: .5s, 1s;
+    width: 400px; 
+    /*TODO - address this hard coded width and height later*/
+    height: 224px;
+}
+
+#tutoring .portfolio-item.faq:hover {
+    background: linear-gradient(
+            to bottom,
+            rgba(24,188,156,.7),
+            rgba(24,188,156,.7)), 
+        url("/img/portfolio/faq.jpg");
+    z-index: 3;
+}
+
 #tutoring .portfolio-item header {
     margin-top: 48%;
     background-color: transparent;
+    transition-property: margin-top;
+    transition-duration: .5s, 1s;
 }
 
-#tutoring .portfolio-item header h1 {
+#tutoring .portfolio-item h1 {
     font-size: 30px;
+    transition-property: font-size;
+    transition-duration: .5s, 1s;
+}
+
+#tutoring .portfolio-item:hover h1 {
+    font-size: 45px;
+}
+
+#tutoring .portfolio-item:hover header {
+    margin-top: 23%;
+    width: 100%;
 }
 
 #tutoring .portfolio-item .portfolio-link {
@@ -613,3 +681,4 @@ footer p {
     width: 221px;
     height: 240px;
 }
+

@@ -36,10 +36,18 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-var $modal = $('#services').modal({
+var $servicesModal = $('#services').modal({
     show: false
 });
 
 $('.services').on('click', function() {
-    $modal.modal('show');
+    $servicesModal.modal('show');
+});
+
+var $clientsModal = $('#pastClients').modal({
+    show: false
+});
+
+$('.past-clients').on('click', function() {
+    $clientsModal.modal('show');
 });
