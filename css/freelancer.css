@@ -272,21 +272,6 @@ section.success a.active {
     height: 224px;
 }
 
-/*#tutoring .portfolio-item.faq:before {
-    content: '';
-    z-index: -1;
-    position: absolute;
-    background: linear-gradient(
-            to bottom,
-            rgba(0, 0, 0, 0),
-            rgba(0, 0, 0, 0.55)), 
-        url("/img/portfolio/faq.jpg");
-    transition-property: background-color, z-index;
-    transition-duration: .5s, 1s;
-    width: 380px; 
-    height: 224px;
-}
-*/
 #tutoring .portfolio-item.faq:hover {
     background: linear-gradient(
             to bottom,
@@ -296,15 +281,6 @@ section.success a.active {
     z-index: 3;
 }
 
-/*#tutoring .portfolio-item.faq:before:hover {
-    background: linear-gradient(
-            to bottom,
-            rgba(24,188,156,.7),
-            rgba(24,188,156,.7)), 
-        url("/img/portfolio/faq.jpg");
-    z-index: 3;
-}
-*/
 #tutoring .portfolio-item header {
     margin-top: 48%;
     background-color: transparent;
