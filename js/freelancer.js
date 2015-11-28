@@ -51,3 +51,11 @@ var $clientsModal = $('#pastClients').modal({
 $('.past-clients').on('click', function() {
     $clientsModal.modal('show');
 });
+
+var $faqModal = $('#faq').modal({
+    show: false
+});
+
+$('.faq').on('click', function() {
+    $faqModal.modal('show');
+});
