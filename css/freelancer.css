@@ -634,3 +634,6 @@ footer p {
     height: 240px;
 }
 
+.pull-center {
+    text-align: center;
+}
