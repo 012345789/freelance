@@ -601,6 +601,12 @@ hr.star-light.transparent:after {
     border-radius: 5px;
 }
 
+.about-pic-2 {
+    margin-top: 30px;
+    width: 150px;
+    border-radius: 5px;
+}
+
 .bordered-picture {
     padding: 1px;
     border: 1px solid #F7F7F7;
@@ -636,4 +642,24 @@ footer p {
 
 .pull-center {
     text-align: center;
+}
+
+.about-text-1 {
+    margin-top: 18px;
+}
+
+.about-text-2 {
+    margin-top: 15px;
+}
+
+.about-text-1 p {
+    line-height: 1.5;
+}
+
+.writing-process-section {
+    margin-top: 35px;
+}
+
+.writing-process-header {
+    margin-bottom: 30px;
 }

@@ -2,46 +2,26 @@
 1 verbose cli [ '/usr/local/bin/node',
 1 verbose cli   '/usr/local/bin/npm',
 1 verbose cli   'run',
-1 verbose cli   'gulp',
-1 verbose cli   '--',
-1 verbose cli   'v' ]
+1 verbose cli   'browser-sync' ]
 2 info using npm@3.3.6
 3 info using node@v5.0.0
-4 verbose run-script [ 'pregulp', 'gulp', 'postgulp' ]
-5 info lifecycle freelance@1.0.0~pregulp: freelance@1.0.0
-6 silly lifecycle freelance@1.0.0~pregulp: no script for pregulp, continuing
-7 info lifecycle freelance@1.0.0~gulp: freelance@1.0.0
-8 verbose lifecycle freelance@1.0.0~gulp: unsafe-perm in lifecycle true
-9 verbose lifecycle freelance@1.0.0~gulp: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/G1/Desktop/code/freelance/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mongodb/bin:Desktop/code/“safeway
-10 verbose lifecycle freelance@1.0.0~gulp: CWD: /Users/G1/Desktop/code/freelance
-11 silly lifecycle freelance@1.0.0~gulp: Args: [ '-c', 'gulp "v"' ]
-12 silly lifecycle freelance@1.0.0~gulp: Returned: code: 1  signal: null
-13 info lifecycle freelance@1.0.0~gulp: Failed to exec gulp script
-14 verbose stack Error: freelance@1.0.0 gulp: `gulp "v"`
-14 verbose stack Exit status 1
-14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:233:16)
-14 verbose stack     at emitTwo (events.js:87:13)
-14 verbose stack     at EventEmitter.emit (events.js:172:7)
-14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
-14 verbose stack     at emitTwo (events.js:87:13)
-14 verbose stack     at ChildProcess.emit (events.js:172:7)
-14 verbose stack     at maybeClose (internal/child_process.js:818:16)
-14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
-15 verbose pkgid freelance@1.0.0
-16 verbose cwd /Users/G1/Desktop/code/freelance
-17 error Darwin 14.5.0
-18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "gulp" "--" "v"
-19 error node v5.0.0
-20 error npm  v3.3.6
-21 error code ELIFECYCLE
-22 error freelance@1.0.0 gulp: `gulp "v"`
-22 error Exit status 1
-23 error Failed at the freelance@1.0.0 gulp script 'gulp "v"'.
-23 error This is most likely a problem with the freelance package,
-23 error not with npm itself.
-23 error Tell the author that this fails on your system:
-23 error     gulp "v"
-23 error You can get their info via:
-23 error     npm owner ls freelance
-23 error There is likely additional logging output above.
-24 verbose exit [ 1, true ]
+4 verbose stack Error: missing script: browser-sync
+4 verbose stack     at run (/usr/local/lib/node_modules/npm/lib/run-script.js:148:19)
+4 verbose stack     at /usr/local/lib/node_modules/npm/lib/run-script.js:58:5
+4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:345:5
+4 verbose stack     at checkBinReferences_ (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:309:45)
+4 verbose stack     at final (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:343:3)
+4 verbose stack     at then (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:113:5)
+4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:300:12
+4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:76:16
+4 verbose stack     at tryToString (fs.js:414:3)
+4 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:401:12)
+5 verbose cwd /Users/G1/Desktop/code/freelance
+6 error Darwin 14.5.0
+7 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "browser-sync"
+8 error node v5.0.0
+9 error npm  v3.3.6
+10 error missing script: browser-sync
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
