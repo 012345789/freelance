@@ -345,15 +345,33 @@ section.success a.active {
     margin: 0;
 }
 
+@media screen and (max-width:1200px) {
+    #tutoring .portfolio-items-container.row {
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    #tutoring .portfolio-items-container.row {
+        margin-left: 24%;
+    }
+}
+
+@media screen and (max-width:680px) {
+    #tutoring .portfolio-items-container.row {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #tutoring .portfolio-items-container.row {
+        margin-left: 5%;
+    }
+}
+
 #tutoring * {
     z-index: 2;
 }
-
-/*@media(min-width:767px) {
-    #tutoring .portfolio-item {
-        margin: 0 0 30px;
-    }
-}*/
 
 .btn-outline {
     margin-top: 15px;
@@ -663,3 +681,6 @@ footer p {
 .writing-process-header {
     margin-bottom: 30px;
 }
+
+
+

@@ -1,0 +1,150 @@
+A product expert will be with you soon. Position in Queue is 2. Thank you for your patience.
+You are now chatting with 'Kamren'
+Kamren - 
+Thank you for contacting Sales and Support Chat. My name is Kamren, How can I help you today?
+you - 
+hi kamren
+you - 
+i have one website domain purchased through you guys
+Kamren - 
+Hello there!
+you - 
+it's www.filipektutoring.com
+you - 
+right now it's masking to redirect to filipek.herokuapp.com
+you - 
+however, the title (when i look at the tab in a browser), doesn't reflect the title that i want it to. it lacks the favicon and the correct formatting
+Kamren - 
+Hmmmm, I would be happy to look into this for you, do you have the GoDaddy Customer Number and 4-Digit PIN please?
+you - 
+Customer #:76002256 | PIN:1233
+Kamren - 
+Thank you! Pulling that up now
+Kamren - 
+so FILIPEKTUTORING.COM brings me to a page with leaves on the ground and a persons image on top of Person Statemetns is this how it should be?
+you - 
+that is correct
+you - 
+if you look at your browser's tabs, you will see what i mean
+you - 
+it says filipektutoring.com
+Kamren - 
+in my browser tab i have FILIPEKTUTORING.COM yes
+Kamren - 
+What should it be?
+you - 
+instead of Filipek Tutoring (with a designated icon)
+Kamren - 
+So even when I straight to filipek.herokuapp.com it's the same
+you - 
+going directly to filipek.herokuapp.com does not result in this issue
+you - 
+which browser are you using?
+Kamren - 
+It wasn't in chrome but did after a little one and does show the little hat same with firefox
+Kamren - 
+The only problem im having here trying to figure out how it could be fixed is that we simply send the domain over to the host. You have the options to turn of the masking or have it on but that's all the power we have over how the webpage displays. I would suggest turning off the masking and see if that fixes the issue as a test to start
+you - 
+how about web hosting? where i upload the code directly to godaddy instead
+you - 
+since i would also like this site to be searchable through google and other search engines, i believe i need to make that transition
+Kamren - 
+Where is this site hosted currently?
+you - 
+it's hosted on Heroku
+Kamren - 
+Is it with a template based system they provide or just custom made?
+Kamren - 
+Do they allow you to move the content and website data via FTP?
+Kamren - 
+If so that definitely would be a good option
+you - 
+i'm not sure
+you - 
+the template was not provided by heroku. so my guess is you just upload your code
+you - 
+i do have all the code locally and on github
+you - 
+i don't know about the FTP question
+Kamren - 
+Ok, cause yes if you have access to the FTP credentials for the hosting with them you would just need to get a hosting account with us and FTO ( file transfer protocol) the content of the site from there hosting to ours
+you - 
+what would the pricing of that look like
+you - 
+and what would be the effects?
+Kamren - 
+So at the moment a 3 year hosting plan with us would only come out to $161.64 ( prices valid til end of day) and you would just create your FTP credentials with us connect them to a file transfer program and connect there hosting to it as well and it will move the files and content between the hosting systems
+Kamren - 
+It does take some manual work but is possible
+Kamren - 
+If you can get the FTP credentials there is a chance our guys could do it for you as well for a one time 99 dollar fee
+you - 
+i don't understand why FTP is required
+you - 
+if i have access to all the code. could i not just host all the content on godaddy?
+Kamren - 
+Well yes sorry, you have all the websites Files on your computer locally? Its not just a code you can insert somewhere
+you - 
+yes
+you - 
+it is on my computer locally as well as saved on github remotely
+Kamren - 
+How many files does this consist of?
+you - 
+83.3 MB for 5.8k items
+Kamren - 
+FTP will still be required just a forewarning in order to upload those files.. You would get the hosting account with us loaded into your godaddy account, setup your godaddy FTP/cPanel hosting credentials and then you will need to use a FTP program ( filezilla is a great quick free one we suggest) and connect your FTP credentials with us to that program and upload the files from the computer to our hosting
+you - 
+ok...
+you - 
+would i be able to transition to this from my current godaddy plan of web domain only?
+Kamren - 
+Everything in your account currently would stay as is we would just need to purchase you a hosting account to add in there additionally
+you - 
+if i purchase a web hosting account, i would not need a web domain account then
+Kamren - 
+Yes it would not be necessary to get an additional domain, only a hosting plan which you will connect this current domain too
+you - 
+are you telling me that a web hosting account does not include a web domain?
+Kamren - 
+No a web hosting plan does include a free domain if you want to claim it but would not be required if you already have one.. Say you buy a 1 year hosting plan now you can claim a domain for 1 year with it.
+you - 
+could i cancel my web domain plan and start a new web hosting one then? my website won't be ready for a few months as i will need to make changes
+Kamren - 
+If you canceled your domain it would not be available for purchase again with a new hosting plan no
+Kamren - 
+When you cancel a domain it goes through a 45-70 day process before they go back to the open market
+you - 
+would i receive a refund for the remainder of the time that i did not use it for?
+Kamren - 
+No unfortunetly domains are locked in after 5 days of registrating via ICANN domain laws
+you - 
+ok. so to make this webhosting work, i would need to purchase a web hosting plan. and also an FTP plan?
+Kamren - 
+No purchase of a FTP plan or anything, You would just need to get the hosting and download Filezilla the FTP program we support for free
+you - 
+i see that the web hosting plan comes with an email. but my web domain plan already has an email that i've bought. how will this work?
+you - 
+there would be an overlap of services
+Kamren - 
+That is email that is built in to the back end of the web hosting, it is not the same as the Office 365 email you are using now
+Kamren - 
+Your office 365 email is actually a much better smoother running email service I would suggest to stick with
+you - 
+is there a cheaper plan that includes web hosting without the email?
+Kamren - 
+No all of our hosting plans would include email in the backend as a courtesy but its not included in the price and not actually suggested to be used over the office 365 we offer. Your hosting accounts primary concern and job should be to run your website, its better to have your email on a separate server like you do now
+you - 
+could you give me an estimate of how much it would cost if i have this plan along with my web domain plan?
+Kamren - 
+so our office 365 plan your on was $47.88 a year and the hosting would be $71.88 a year as well as the domain about $14.99 so roughly $135 a year
+you - 
+ok. what if i want to add search engine optimization to this plan?
+Kamren - 
+Our Search Engine Visibility program come out to $83.88 for the yearly term so add that to the total and roughly 218 a year on your business's website
+you - 
+could you tell me what this search engine visibility program does technically?
+Kamren - 
+Its essentially a tool that helps you go through your websites content and make sure everything is optimized and set correctly for googles liking and help get you ranked higher. It is somehting that requires some backend work but it can pay off
+you - 
+ok. thanks for all your help
