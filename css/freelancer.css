@@ -591,26 +591,9 @@ footer .footer-below {
     height: 252px;
 }
 
-.portfolio-modal .modal-content .modal-text {
-    text-align: left;
-    font-size: 1.3em;
-}
-
-.portfolio-modal .modal-content .modal-text .client-name {
-    list-style-type: none;
-}
-
 hr.star-light.transparent:after {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     background-color: transparent;
-}
-
-.portfolio-modal .modal-content .modal-body .modal-text .alternating-container {
-    margin-bottom: 20px;
-}
-
-.portfolio-modal .modal-content .modal-body .modal-text .alternating-container:nth-child(odd) {
-    color: #516B49;
 }
 
 .about-pic {
@@ -682,5 +665,36 @@ footer p {
     margin-bottom: 30px;
 }
 
+.past-clients-picture {
+    width: 200px;
+    border-radius: 5px;
+}
 
+.portfolio-modal .modal-content .modal-text {
+    text-align: left;
+    font-size: 1.3em;
+}
 
+.portfolio-modal .modal-content .modal-text .client-name {
+    list-style-type: none;
+}
+
+.portfolio-modal .modal-content .modal-body .modal-text .alternating-container {
+    margin-bottom: 20px;
+}
+
+.portfolio-modal .modal-content .modal-body .alternating-container:nth-child(odd) {
+    color: #516B49;
+}
+
+.jill-text {
+    margin-top: 20%;
+}
+
+.yazmin-marco-text {
+    margin-top: 5%;
+}
+
+.carter-text {
+    margin-top: 3%;
+}
