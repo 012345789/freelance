@@ -658,11 +658,12 @@ footer p {
 }
 
 .writing-process-section {
-    margin-top: 35px;
+    margin-top: 20px;
 }
 
 .writing-process-header {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    margin-top: 35px;
 }
 
 .past-clients-picture {
@@ -697,4 +698,10 @@ footer p {
 
 .carter-text {
     margin-top: 3%;
+}
+
+.literary-analysis-process {
+    text-align: left;
+    margin-left: 6%;
+    line-height: 1.1;
 }
