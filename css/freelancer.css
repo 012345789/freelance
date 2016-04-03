@@ -705,3 +705,7 @@ footer p {
     margin-left: 3%;
     line-height: 1.2;
 }
+
+.contact-email a {
+    color: black;
+}
