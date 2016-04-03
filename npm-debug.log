@@ -2,6 +2,7 @@
 1 verbose cli [ '/usr/local/bin/node',
 1 verbose cli   '/usr/local/bin/npm',
 1 verbose cli   'run',
+1 verbose cli   '--',
 1 verbose cli   'browser-sync' ]
 2 info using npm@3.3.6
 3 info using node@v5.0.0
@@ -18,7 +19,7 @@
 4 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:401:12)
 5 verbose cwd /Users/G1/Desktop/code/freelance
 6 error Darwin 14.5.0
-7 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "browser-sync"
+7 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "--" "browser-sync"
 8 error node v5.0.0
 9 error npm  v3.3.6
 10 error missing script: browser-sync
