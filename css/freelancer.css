@@ -685,11 +685,15 @@ footer p {
     list-style-type: none;
 }
 
+.clients-header {
+  color: #516B49;
+}
+
 .portfolio-modal .modal-content .modal-body .modal-text .alternating-container {
     margin-bottom: 20px;
 }
 
-.portfolio-modal .modal-content .modal-body .alternating-container:nth-child(odd) {
+.portfolio-modal .modal-content .modal-body .alternating-container:nth-child(even) {
     color: #516B49;
 }
 
